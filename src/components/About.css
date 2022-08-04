@@ -1,0 +1,43 @@
+.gitHubIcon{
+    width: 60px;
+    height: 60px;
+}
+
+.signature{
+    width: 100px;
+    height: 60px;
+}
+
+.myName{
+    display: inline;
+    font-family: 'Lato', sans-serif;
+}
+
+.flag{
+    height: 1.2em;
+    display: inline;
+}
+
+.about{
+    margin-top: 100px;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.personal{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+button{
+    background: black;
+}
