@@ -1,43 +1,66 @@
-.gitHubIcon{
-    width: 60px;
-    height: 60px;
-}
-
-.signature{
-    width: 100px;
-    height: 60px;
-}
+*{ font-family: 'Lato', sans-serif !important;
+    scroll-behavior: smooth;}
 
 .myName{
-    display: inline;
-    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    font-size: 47px;
+    display: block;
+}
+
+.description{
+    margin-bottom: 13px;
 }
 
 .flag{
-    height: 1.2em;
-    display: inline;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 3px;
+    vertical-align: middle;
 }
 
 .about{
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-left: 10%;
 }
 
-.links{
+.linkBox{
+    margin-top: 10px;
     display: flex;
     justify-content: left;
-    align-items: center;
+    width: 100%;
 }
 
-.personal{
-    display: flex;
-    justify-content: left;
-    align-items: center;
+.social{
+    width:36px;
+    border-radius: 2px 2px 2px 2px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px 1px #333;
 }
 
-*{
-    font-family: 'Lato', sans-serif;
+.social:hover{
+    cursor: pointer;
+    filter: brightness(70%);
 }
 
-button{
-    background: black;
+.aboutButton{
+    background: #666666;
+    border: 1px #666;
+    width: 110px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 2px;
+    height: 36px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+
+.aboutButton:hover{
+    background-color: #444;
+    border: 1px #444;
+}
+
+.aboutButton:focus{
+    background-color: #666;
+    border: 1px #666;
 }

@@ -1,14 +1,31 @@
 [
-    {
-        "title": "Linux Distribution",
-        "description": ""
-    },
-    {
-        "title": "Natural Disasters",
-        "description": ""
-    },
-    {
-        "title": "Schools Clean Air Monitoring Project",
-        "description": ""
-    }
+
+  {
+    "title": "Natural Disasters",
+    "description": "A webapp that displays natural disasters over the past 50 years on a map. The map is continually updated with new information and each disaster is linked to a charity to help in relief. Maps are provided by Mapbox API and the interface is built using LeafletJS.",
+    "image": "natural.png",
+    "github": "https://github.com/jpbonch/naturaldisasters",
+    "link": "https://jpbonch.com/naturaldisasters"
+},
+  {
+    "title": "Schools Clean Air Monitoring Project",
+    "description": "The project is a partnership between 13 primary and secondary schools in the Abingdon area in England. Children of all ages have participated, collecting and interpreting the results from the particulate matter air quality tests, by plotting the data over time.",
+    "image": "scampa.png",
+    "github": "https://github.com/jpbonch/scampa",
+    "link": "https://scampa.herokuapp.com"
+},
+{
+  "title": "California Covid-19",
+  "description": "Visualisation of Covid-19 cases in California, using data from the LA Times and the California Department of Public Health. Separates cases by county and demographic factors like age and race. Made with R & R Markdown.",
+  "image": "covid19.png",
+  "github": "https://github.com/jpbonch/covid19",
+  "link": "https://jpbonch.shinyapps.io/covid19/#section-plots"
+},
+{
+  "title": "Poly World",
+  "description": "Low-poly first person shooter game, made with the Unity Engine, with scripts written in C#.",
+  "image": "polyworld.png",
+  "github": "https://github.com/jpbonch/polyworld",
+  "link": "https://jpbonch.itch.io/poly-world"
+}
 ]
