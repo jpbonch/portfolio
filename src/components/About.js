@@ -9,6 +9,7 @@ export default function About() {
   }
   return (
     <div className="about">
+      <div className="leftColumn">
         <h1 className="myName">João Bonchristiano</h1>
         <p className="description">
           Computer Science student at Georgia Tech 🐝 from
@@ -26,6 +27,8 @@ export default function About() {
         
         {/* <button className="aboutButton">Resume</button> */}
       </div>
+      </div>
+      <img src="myface.jpg" alt="My Face" className="myFace"/>
     </div>
   );
 }

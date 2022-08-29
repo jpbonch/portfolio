@@ -22,6 +22,9 @@
 .about{
     margin-top: 80px;
     margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .linkBox{
@@ -63,4 +66,14 @@
 .aboutButton:focus{
     background-color: #666;
     border: 1px #666;
+}
+
+.myFace{
+    width: 30%;
+    height: 30%;
+    float: right;
+    border-radius: 50%;
+    border: 6px solid gray;
+    margin-right: 10%;
+    /* margin-top: 40px; */
 }
