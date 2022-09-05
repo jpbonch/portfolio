@@ -25,7 +25,9 @@ export default function About() {
         </a>
         <button className="aboutButton" onClick={scrollToBottom}>Contact Me</button>
         
-        {/* <button className="aboutButton">Resume</button> */}
+        <a href="Resume.pdf">
+        <button className="aboutButton" >Resume</button>
+        </a>
       </div>
       </div>
       <img src="myface.jpg" alt="My Face" className="myFace"/>
